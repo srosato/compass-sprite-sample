@@ -1,0 +1,22 @@
+@import "icon/small/*.png";
+@import "icon/medium/*.png";
+
+#{$small-sprite-base-class},
+#{$medium-sprite-base-class}
+//#{$large-sprite-base-class}
+{
+  border: 0;
+  display: block;
+}
+
+#{$small-sprite-base-class} {
+  height: 32px;
+}
+
+#{$medium-sprite-base-class} {
+  height: 64px;
+}
+
+@include all-small-sprites(true);
+@include all-medium-sprites(true);
+//@include all-icon-large-sprites(true);

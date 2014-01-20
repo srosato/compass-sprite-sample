@@ -1,0 +1,70 @@
+/* line 50, icon/small/*.png */
+.small-sprite, .small-apple, .small-bacon, #home .bacon, #home .apple {
+  background: url('../images/icon/small-s2464935875.png') no-repeat;
+}
+
+/* line 50, icon/medium/*.png */
+.medium-sprite, .medium-apple, .medium-tomato, #home .tomato {
+  background: url('../images/icon/medium-se1aab41014.png') no-repeat;
+}
+
+/* line 7, ../sass/scaffolding/_icons.scss */
+.small-sprite, .small-apple, .small-bacon, #home .bacon, #home .apple,
+.medium-sprite,
+.medium-apple,
+.medium-tomato,
+#home .tomato {
+  border: 0;
+  display: block;
+}
+
+/* line 12, ../sass/scaffolding/_icons.scss */
+.small-sprite, .small-apple, .small-bacon, #home .bacon, #home .apple {
+  height: 32px;
+}
+
+/* line 16, ../sass/scaffolding/_icons.scss */
+.medium-sprite, .medium-apple, .medium-tomato, #home .tomato {
+  height: 64px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-1.9.3-p362@compass-sprite-sample/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.small-apple {
+  background-position: 0 0;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-1.9.3-p362@compass-sprite-sample/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.small-bacon {
+  background-position: 0 -32px;
+  height: 32px;
+  width: 32px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-1.9.3-p362@compass-sprite-sample/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.medium-apple {
+  background-position: 0 -64px;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 60, ../../../.rvm/gems/ruby-1.9.3-p362@compass-sprite-sample/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.medium-tomato {
+  background-position: 0 0;
+  height: 64px;
+  width: 64px;
+}
+
+/* line 2, ../sass/content/_home.scss */
+#home .bacon {
+  background-position: 0 -32px;
+}
+/* line 5, ../sass/content/_home.scss */
+#home .apple {
+  background-position: 0 0;
+}
+/* line 8, ../sass/content/_home.scss */
+#home .tomato {
+  background-position: 0 0;
+}

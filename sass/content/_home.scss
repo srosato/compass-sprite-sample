@@ -1,0 +1,12 @@
+#home {
+  .bacon {
+    @include small-sprite(bacon);
+  }
+  .apple {
+    @include small-sprite(apple);
+  }
+  .tomato {
+    @include medium-sprite(tomato);
+  }
+}
+
