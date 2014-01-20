@@ -56,6 +56,1361 @@
   width: 64px;
 }
 
+@font-face {
+  font-family: "FontAwesome";
+  src: url('fonts/fontawesome-webfont.eot');
+  src: url('fonts/fontawesome-webfont.eot?#iefix') format('eot'), url('fonts/fontawesome-webfont.woff') format('woff'), url('fonts/fontawesome-webfont.ttf') format('truetype'), url('fonts/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*  Font Awesome styles
+    ------------------------------------------------------- */
+/* includes sprites.less reset */
+/* line 19, ../sass/scaffolding/_font-awesome.scss */
+[class^="fa-icon-"],
+[class*=" fa-icon-"],
+#home .text:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  width: auto;
+  height: auto;
+  vertical-align: baseline;
+  background-image: none !important;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+}
+
+/* line 36, ../sass/scaffolding/_font-awesome.scss */
+[class^="fa-icon-"]:before,
+[class*=" fa-icon-"]:before,
+#home .text:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+
+/* line 43, ../sass/scaffolding/_font-awesome.scss */
+.fa-spin {
+  display: inline-block;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  /* line 52, ../sass/scaffolding/_font-awesome.scss */
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+
+  /* line 53, ../sass/scaffolding/_font-awesome.scss */
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  /* line 56, ../sass/scaffolding/_font-awesome.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 57, ../sass/scaffolding/_font-awesome.scss */
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+@-o-keyframes spin {
+  /* line 60, ../sass/scaffolding/_font-awesome.scss */
+  0% {
+    -o-transform: rotate(0deg);
+  }
+
+  /* line 61, ../sass/scaffolding/_font-awesome.scss */
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes spin {
+  /* line 64, ../sass/scaffolding/_font-awesome.scss */
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+
+  /* line 65, ../sass/scaffolding/_font-awesome.scss */
+  100% {
+    -ms-transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  /* line 68, ../sass/scaffolding/_font-awesome.scss */
+  0% {
+    transform: rotate(0deg);
+  }
+
+  /* line 69, ../sass/scaffolding/_font-awesome.scss */
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
+/* line 74, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-glass:before {
+  content: "\f000";
+}
+
+/* line 75, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-music:before {
+  content: "\f001";
+}
+
+/* line 76, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-search:before {
+  content: "\f002";
+}
+
+/* line 77, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-envelope:before {
+  content: "\f003";
+}
+
+/* line 78, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-heart:before {
+  content: "\f004";
+}
+
+/* line 79, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-star:before {
+  content: "\f005";
+}
+
+/* line 80, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-star-empty:before {
+  content: "\f006";
+}
+
+/* line 81, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-user:before {
+  content: "\f007";
+}
+
+/* line 82, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-film:before {
+  content: "\f008";
+}
+
+/* line 83, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-th-large:before {
+  content: "\f009";
+}
+
+/* line 84, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-th:before {
+  content: "\f00a";
+}
+
+/* line 85, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-th-list:before {
+  content: "\f00b";
+}
+
+/* line 86, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-ok:before {
+  content: "\f00c";
+}
+
+/* line 87, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-remove:before {
+  content: "\f00d";
+}
+
+/* line 88, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-zoom-in:before {
+  content: "\f00e";
+}
+
+/* line 90, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-zoom-out:before {
+  content: "\f010";
+}
+
+/* line 91, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-off:before {
+  content: "\f011";
+}
+
+/* line 92, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-signal:before {
+  content: "\f012";
+}
+
+/* line 93, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-cog:before {
+  content: "\f013";
+}
+
+/* line 94, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-trash:before {
+  content: "\f014";
+}
+
+/* line 95, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-home:before {
+  content: "\f015";
+}
+
+/* line 96, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-file:before {
+  content: "\f016";
+}
+
+/* line 97, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-time:before {
+  content: "\f017";
+}
+
+/* line 98, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-road:before {
+  content: "\f018";
+}
+
+/* line 99, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-download-alt:before {
+  content: "\f019";
+}
+
+/* line 100, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-download:before {
+  content: "\f01a";
+}
+
+/* line 101, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-upload:before {
+  content: "\f01b";
+}
+
+/* line 102, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-inbox:before {
+  content: "\f01c";
+}
+
+/* line 103, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-play-circle:before {
+  content: "\f01d";
+}
+
+/* line 104, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-repeat:before {
+  content: "\f01e";
+}
+
+/* \f020 doesn't work in Safari. all shifted one down */
+/* line 107, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-refresh:before {
+  content: "\f021";
+}
+
+/* line 108, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-list-alt:before {
+  content: "\f022";
+}
+
+/* line 109, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-lock:before {
+  content: "\f023";
+}
+
+/* line 110, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-flag:before {
+  content: "\f024";
+}
+
+/* line 111, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-headphones:before {
+  content: "\f025";
+}
+
+/* line 112, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-volume-off:before {
+  content: "\f026";
+}
+
+/* line 113, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-volume-down:before {
+  content: "\f027";
+}
+
+/* line 114, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-volume-up:before {
+  content: "\f028";
+}
+
+/* line 115, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-qrcode:before {
+  content: "\f029";
+}
+
+/* line 116, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-barcode:before {
+  content: "\f02a";
+}
+
+/* line 117, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-tag:before {
+  content: "\f02b";
+}
+
+/* line 118, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-tags:before {
+  content: "\f02c";
+}
+
+/* line 119, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-book:before {
+  content: "\f02d";
+}
+
+/* line 120, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 121, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-print:before {
+  content: "\f02f";
+}
+
+/* line 123, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-camera:before {
+  content: "\f030";
+}
+
+/* line 124, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-font:before {
+  content: "\f031";
+}
+
+/* line 125, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-bold:before {
+  content: "\f032";
+}
+
+/* line 126, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-italic:before {
+  content: "\f033";
+}
+
+/* line 127, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-text-height:before {
+  content: "\f034";
+}
+
+/* line 128, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-text-width:before {
+  content: "\f035";
+}
+
+/* line 129, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-align-left:before {
+  content: "\f036";
+}
+
+/* line 130, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-align-center:before {
+  content: "\f037";
+}
+
+/* line 131, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-align-right:before {
+  content: "\f038";
+}
+
+/* line 132, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-align-justify:before {
+  content: "\f039";
+}
+
+/* line 133, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-list:before {
+  content: "\f03a";
+}
+
+/* line 134, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-indent-left:before {
+  content: "\f03b";
+}
+
+/* line 135, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-indent-right:before {
+  content: "\f03c";
+}
+
+/* line 136, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-facetime-video:before {
+  content: "\f03d";
+}
+
+/* line 137, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-picture:before {
+  content: "\f03e";
+}
+
+/* line 139, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-pencil:before {
+  content: "\f040";
+}
+
+/* line 140, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-map-marker:before {
+  content: "\f041";
+}
+
+/* line 141, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-adjust:before {
+  content: "\f042";
+}
+
+/* line 142, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-tint:before {
+  content: "\f043";
+}
+
+/* line 143, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-edit:before {
+  content: "\f044";
+}
+
+/* line 144, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-share:before {
+  content: "\f045";
+}
+
+/* line 145, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-check:before {
+  content: "\f046";
+}
+
+/* line 146, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-move:before {
+  content: "\f047";
+}
+
+/* line 147, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-step-backward:before {
+  content: "\f048";
+}
+
+/* line 148, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 149, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-backward:before {
+  content: "\f04a";
+}
+
+/* line 150, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-play:before {
+  content: "\f04b";
+}
+
+/* line 151, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-pause:before {
+  content: "\f04c";
+}
+
+/* line 152, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-stop:before {
+  content: "\f04d";
+}
+
+/* line 153, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-forward:before {
+  content: "\f04e";
+}
+
+/* line 155, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 156, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-step-forward:before {
+  content: "\f051";
+}
+
+/* line 157, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-eject:before {
+  content: "\f052";
+}
+
+/* line 158, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 159, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 160, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-plus-sign:before {
+  content: "\f055";
+}
+
+/* line 161, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-minus-sign:before {
+  content: "\f056";
+}
+
+/* line 162, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-remove-sign:before {
+  content: "\f057";
+}
+
+/* line 163, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-ok-sign:before {
+  content: "\f058";
+}
+
+/* line 164, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-question-sign:before {
+  content: "\f059";
+}
+
+/* line 165, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-info-sign:before {
+  content: "\f05a";
+}
+
+/* line 166, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-screenshot:before {
+  content: "\f05b";
+}
+
+/* line 167, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-remove-circle:before {
+  content: "\f05c";
+}
+
+/* line 168, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-ok-circle:before {
+  content: "\f05d";
+}
+
+/* line 169, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-ban-circle:before {
+  content: "\f05e";
+}
+
+/* line 171, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 172, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 173, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 174, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 175, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-share-alt:before {
+  content: "\f064";
+}
+
+/* line 176, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-resize-full:before {
+  content: "\f065";
+}
+
+/* line 177, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-resize-small:before {
+  content: "\f066";
+}
+
+/* line 178, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-plus:before {
+  content: "\f067";
+}
+
+/* line 179, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-minus:before {
+  content: "\f068";
+}
+
+/* line 180, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-asterisk:before {
+  content: "\f069";
+}
+
+/* line 181, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-exclamation-sign:before {
+  content: "\f06a";
+}
+
+/* line 182, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-gift:before {
+  content: "\f06b";
+}
+
+/* line 183, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-leaf:before, #home .text:before {
+  content: "\f06c";
+}
+
+/* line 184, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-fire:before {
+  content: "\f06d";
+}
+
+/* line 185, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-eye-open:before {
+  content: "\f06e";
+}
+
+/* line 187, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-eye-close:before {
+  content: "\f070";
+}
+
+/* line 188, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-warning-sign:before {
+  content: "\f071";
+}
+
+/* line 189, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-plane:before {
+  content: "\f072";
+}
+
+/* line 190, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-calendar:before {
+  content: "\f073";
+}
+
+/* line 191, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-random:before {
+  content: "\f074";
+}
+
+/* line 192, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-comment:before {
+  content: "\f075";
+}
+
+/* line 193, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-magnet:before {
+  content: "\f076";
+}
+
+/* line 194, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 195, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 196, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-retweet:before {
+  content: "\f079";
+}
+
+/* line 197, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 198, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-folder-close:before {
+  content: "\f07b";
+}
+
+/* line 199, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 200, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-resize-vertical:before {
+  content: "\f07d";
+}
+
+/* line 201, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-resize-horizontal:before {
+  content: "\f07e";
+}
+
+/* line 203, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 204, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-twitter-sign:before {
+  content: "\f081";
+}
+
+/* line 205, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-facebook-sign:before {
+  content: "\f082";
+}
+
+/* line 206, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 207, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-key:before {
+  content: "\f084";
+}
+
+/* line 208, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-cogs:before {
+  content: "\f085";
+}
+
+/* line 209, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-comments:before {
+  content: "\f086";
+}
+
+/* line 210, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-thumbs-up:before {
+  content: "\f087";
+}
+
+/* line 211, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-thumbs-down:before {
+  content: "\f088";
+}
+
+/* line 212, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-star-half:before {
+  content: "\f089";
+}
+
+/* line 213, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-heart-empty:before {
+  content: "\f08a";
+}
+
+/* line 214, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-signout:before {
+  content: "\f08b";
+}
+
+/* line 215, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-linkedin-sign:before {
+  content: "\f08c";
+}
+
+/* line 216, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-pushpin:before {
+  content: "\f08d";
+}
+
+/* line 217, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-external-link:before {
+  content: "\f08e";
+}
+
+/* line 219, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-signin:before {
+  content: "\f090";
+}
+
+/* line 220, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-trophy:before {
+  content: "\f091";
+}
+
+/* line 221, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-github-sign:before {
+  content: "\f092";
+}
+
+/* line 222, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-upload-alt:before {
+  content: "\f093";
+}
+
+/* line 223, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-lemon:before {
+  content: "\f094";
+}
+
+/* line 224, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-phone:before {
+  content: "\f095";
+}
+
+/* line 225, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-check-empty:before {
+  content: "\f096";
+}
+
+/* line 226, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-bookmark-empty:before {
+  content: "\f097";
+}
+
+/* line 227, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-phone-sign:before {
+  content: "\f098";
+}
+
+/* line 228, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-twitter:before {
+  content: "\f099";
+}
+
+/* line 229, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-facebook:before {
+  content: "\f09a";
+}
+
+/* line 230, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-github:before {
+  content: "\f09b";
+}
+
+/* line 231, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-unlock:before {
+  content: "\f09c";
+}
+
+/* line 232, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 233, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-rss:before {
+  content: "\f09e";
+}
+
+/* line 235, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-hdd:before {
+  content: "\f0a0";
+}
+
+/* line 236, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 237, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-bell:before {
+  content: "\f0a2";
+}
+
+/* line 238, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 239, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-hand-right:before {
+  content: "\f0a4";
+}
+
+/* line 240, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-hand-left:before {
+  content: "\f0a5";
+}
+
+/* line 241, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-hand-up:before {
+  content: "\f0a6";
+}
+
+/* line 242, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-hand-down:before {
+  content: "\f0a7";
+}
+
+/* line 243, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-circle-arrow-left:before {
+  content: "\f0a8";
+}
+
+/* line 244, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-circle-arrow-right:before {
+  content: "\f0a9";
+}
+
+/* line 245, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-circle-arrow-up:before {
+  content: "\f0aa";
+}
+
+/* line 246, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-circle-arrow-down:before {
+  content: "\f0ab";
+}
+
+/* line 247, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-globe:before {
+  content: "\f0ac";
+}
+
+/* line 248, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 249, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 251, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-filter:before {
+  content: "\f0b0";
+}
+
+/* line 252, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 253, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-fullscreen:before {
+  content: "\f0b2";
+}
+
+/* line 255, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-group:before {
+  content: "\f0c0";
+}
+
+/* line 256, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-link:before {
+  content: "\f0c1";
+}
+
+/* line 257, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 258, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-beaker:before {
+  content: "\f0c3";
+}
+
+/* line 259, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-cut:before {
+  content: "\f0c4";
+}
+
+/* line 260, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-copy:before {
+  content: "\f0c5";
+}
+
+/* line 261, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-paper-clip:before {
+  content: "\f0c6";
+}
+
+/* line 262, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-save:before {
+  content: "\f0c7";
+}
+
+/* line 263, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-sign-blank:before {
+  content: "\f0c8";
+}
+
+/* line 264, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-reorder:before {
+  content: "\f0c9";
+}
+
+/* line 265, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 266, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 267, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 268, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-underline:before {
+  content: "\f0cd";
+}
+
+/* line 269, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-table:before {
+  content: "\f0ce";
+}
+
+/* line 271, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-magic:before {
+  content: "\f0d0";
+}
+
+/* line 272, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-truck:before {
+  content: "\f0d1";
+}
+
+/* line 273, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 274, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-pinterest-sign:before {
+  content: "\f0d3";
+}
+
+/* line 275, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-google-plus-sign:before {
+  content: "\f0d4";
+}
+
+/* line 276, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 277, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-money:before {
+  content: "\f0d6";
+}
+
+/* line 278, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 279, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 280, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 281, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 282, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-columns:before {
+  content: "\f0db";
+}
+
+/* line 283, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-sort:before {
+  content: "\f0dc";
+}
+
+/* line 284, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-sort-down:before {
+  content: "\f0dd";
+}
+
+/* line 285, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-sort-up:before {
+  content: "\f0de";
+}
+
+/* line 287, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-envelope-alt:before {
+  content: "\f0e0";
+}
+
+/* line 288, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 289, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-undo:before {
+  content: "\f0e2";
+}
+
+/* line 290, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-legal:before {
+  content: "\f0e3";
+}
+
+/* line 291, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-dashboard:before {
+  content: "\f0e4";
+}
+
+/* line 292, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-comment-alt:before {
+  content: "\f0e5";
+}
+
+/* line 293, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-comments-alt:before {
+  content: "\f0e6";
+}
+
+/* line 294, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 295, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 296, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 297, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-paste:before {
+  content: "\f0ea";
+}
+
+/* line 298, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-lightbulb:before {
+  content: "\f0eb";
+}
+
+/* line 299, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 300, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 301, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 303, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 304, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 305, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 306, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-bell-alt:before {
+  content: "\f0f3";
+}
+
+/* line 307, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 308, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-food:before {
+  content: "\f0f5";
+}
+
+/* line 309, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-file-alt:before {
+  content: "\f0f6";
+}
+
+/* line 310, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-building:before {
+  content: "\f0f7";
+}
+
+/* line 311, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-hospital:before {
+  content: "\f0f8";
+}
+
+/* line 312, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 313, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 314, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 315, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-beer:before {
+  content: "\f0fc";
+}
+
+/* line 316, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-h-sign:before {
+  content: "\f0fd";
+}
+
+/* line 317, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-plus-sign-alt:before {
+  content: "\f0fe";
+}
+
+/* line 319, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-double-angle-left:before {
+  content: "\f100";
+}
+
+/* line 320, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-double-angle-right:before {
+  content: "\f101";
+}
+
+/* line 321, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-double-angle-up:before {
+  content: "\f102";
+}
+
+/* line 322, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-double-angle-down:before {
+  content: "\f103";
+}
+
+/* line 323, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-angle-left:before {
+  content: "\f104";
+}
+
+/* line 324, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-angle-right:before {
+  content: "\f105";
+}
+
+/* line 325, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-angle-up:before {
+  content: "\f106";
+}
+
+/* line 326, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-angle-down:before {
+  content: "\f107";
+}
+
+/* line 327, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-desktop:before {
+  content: "\f108";
+}
+
+/* line 328, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-laptop:before {
+  content: "\f109";
+}
+
+/* line 329, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-tablet:before {
+  content: "\f10a";
+}
+
+/* line 330, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-mobile-phone:before {
+  content: "\f10b";
+}
+
+/* line 331, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-circle-blank:before {
+  content: "\f10c";
+}
+
+/* line 332, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 333, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 335, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-spinner:before {
+  content: "\f110";
+}
+
+/* line 336, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-circle:before {
+  content: "\f111";
+}
+
+/* line 337, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-reply:before {
+  content: "\f112";
+}
+
+/* line 338, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-github-alt:before {
+  content: "\f113";
+}
+
+/* line 339, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-folder-close-alt:before {
+  content: "\f114";
+}
+
+/* line 340, ../sass/scaffolding/_font-awesome.scss */
+.fa-icon-folder-open-alt:before {
+  content: "\f115";
+}
+
 /* line 2, ../sass/content/_home.scss */
 #home .bacon {
   background-position: 0 -32px;
@@ -67,4 +1422,8 @@
 /* line 8, ../sass/content/_home.scss */
 #home .tomato {
   background-position: 0 0;
+}
+/* line 13, ../sass/content/_home.scss */
+#home .text:before {
+  padding-right: 0.3125rem;
 }

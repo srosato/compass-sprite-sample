@@ -8,5 +8,13 @@
   .tomato {
     @include medium-sprite(tomato);
   }
+
+  .text {
+    &:before {
+      @extend %fa-icon-base;
+      @extend .fa-icon-leaf:before;
+      padding-right: rem-calc(5);
+    }
+  }
 }
 
